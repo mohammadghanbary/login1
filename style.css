@@ -1,0 +1,119 @@
+body {
+    background-image: linear-gradient(135deg, #FAB2FF 10%, #1904E5 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Open Sans", sans-serif;
+    color: #333333;
+  }
+  
+  .box {
+    margin: 0 auto;
+    margin-top: 80px;
+    width: 80%;
+    background: #FFFFFF;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex: 1 1 100%;
+    align-items: stretch;
+    justify-content: space-between;
+    box-shadow: 0 0 20px 6px #090b6f85;
+  }
+ 
+  .box div {
+    height: auto;
+  }
+  .box .left {
+    color: #FFFFFF;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(/12345.jpeg);
+    overflow: hidden;
+  }
+  .box .left .left-left {
+    padding: 30px;
+    width: 100%;
+    height: 100%;
+    background: #5961f9ad;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+  .box .left .left-left h1 {
+    font-size: 120px;
+    line-height: 1;
+    font-weight: 900;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .box .right {
+    padding: 85px;
+    overflow: hidden;
+    padding-top: 12px;
+  }
+  
+  .box .right h5 {
+    font-size: 70px;
+    line-height: 0;
+  }
+  .box .right p {
+    font-size: 14px;
+    color: #B0B3B9;
+    display: flex;
+    justify-content: space-between;
+  }
+  .box .right .inputs {
+    overflow: hidden;
+  }
+  .box .right input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 25px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #B0B3B9;
+  }
+  .box.right .remember-forget {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .box .right .remember-forget input {
+    margin: 0;
+    margin-right: 7px;
+    width: auto;
+  }
+  .box .right button {
+    float: right;
+    color: #fff;
+    font-size: 16px;
+    padding: 12px 35px;
+    border-radius: 50px;
+    display: inline-block;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    box-shadow: 0px 4px 20px 0px #4d4dff;
+    background-image: linear-gradient(135deg, #6600ff 10%, #6600cc 100%);
+  }
+  
+  label {
+    display: block;
+    position: relative;
+  }
+ 
+ /* Responsive */
+
+  @media (max-width: 980px) {
+    .box {
+      flex-flow: wrap;
+      text-align: center;
+      align-content: center;
+      align-items: center;
+    }
+    .box .right {
+        width: 100%;
+      }
+  }
